@@ -1,0 +1,40 @@
+.heading{
+	height: 50px;
+	background: grey;
+}
+.banner{
+	background: url(../images/n1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.slider{ background:#80808075;
+	color: white;
+   padding: 80px}
+.slider h1{
+	margin: 30px 0;
+}
+.slider p{
+	margin-bottom:30px ;
+}
+.radious{
+	width: 15px;
+	height: 15px;
+	border-radius:50%;
+
+}
+
+
+.carousel-indicators [data-bs-target]{
+    margin-top: 30px;
+    width: 15px;
+    height: 15px;
+
+}
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #fff;
+}
+
+.msg{color: white;
+   }
